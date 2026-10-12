@@ -1,1 +1,16 @@
+Q) Explain the difference between IAM permissions and an S3 bucket policy.
+IAM permissions: IAM policies define what actions an IAM user, group, or role is allowed to perform on AWS resources.
+S3 bucket policy: A bucket policy is a resource-based policy attached directly to an S3 bucket. It specifies which principals can perform particular actions on the bucket or its objects.
+Example:
+- An IAM policy can allow a user to read objects from an S3 bucket.
+- A bucket policy can grant developer-user permission to read objects from a specific bucket.
+Conclusion: Both policies can control access to S3 resources. The effective permissions depend on all applicable policies and restrictions.
 
+Q) Explain why Block Public Access is useful.
+Block Public Access helps prevent accidental public exposure of S3 buckets and their objects.
+Benefits:
+1. Prevents unintended public access.
+2. Helps protect confidential files.
+3. Reduces the risk of data leaks.
+4. Provides an additional layer of security.
+Example: If a bucket contains personal documents, Block Public Access helps prevent anonymous users from accessing those files through public bucket policies or access control lists.
