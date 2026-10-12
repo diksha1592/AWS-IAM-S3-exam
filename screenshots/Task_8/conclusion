@@ -1,1 +1,7 @@
+Conclusion:-
+Configure an S3 Bucket Policy
 
+i have seen how to configure an S3 bucket policy to grant the specified IAM principal, developer-user, permission to read objects from the bucket. 
+I used the correct bucket and object Amazon Resource Names (ARNs) in the policy and ensured that Block Public Access remained enabled learned how to test authorized 
+access and verify that anonymous users could not access the bucket's objects.
+This task improved my understanding of resource-based policies, access permissions, and secure access management in AWS.
