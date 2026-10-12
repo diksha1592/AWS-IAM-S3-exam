@@ -1,5 +1,6 @@
 Conclusion:- 
 Attach IAM Policies:-
+
 In this task, we attached two AWS-managed policies AmazonS3ReadOnlyAccess and AmazonS3FullAccess to different IAM groups. 
 We learned that AmazonS3ReadOnlyAccess allows users to view and read S3 data.
 while AmazonS3FullAccess provides permissions to manage S3 resources including uploading and deleting objects. 
