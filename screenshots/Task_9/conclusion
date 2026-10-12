@@ -1,1 +1,7 @@
+conclusion:-
+Configure a Lifecycle Rule
 
+in lifecycle rule create and configure an S3 lifecycle rule named BackupTransitionRule for objects stored under the backups/ prefix
+configured eligible objects to transition to the S3 Standard-Infrequent Access (Standard-IA) storage class after 30 days and verified that the lifecycle rule was enabled
+understood that lifecycle transitions are processed asynchronously and that objects must satisfy the applicable transition requirements
+This task helped me understand how lifecycle management can automate storage-class transitions, improve storage efficiency, and manage storage costs.
