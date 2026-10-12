@@ -1,1 +1,7 @@
+conclusion:-
+Explain Encryption and Access Controls
 
+an uploaded object's properties and identify its server-side encryption settings understood the difference between IAM permissions and S3
+bucket policies: IAM policies are attached to users, groups, or roles, while bucket policies are attached directly to S3 buckets 
+learned why Block Public Access is important for preventing accidental exposure of private data and reducing the risk of unauthorized access. 
+This task improved my understanding of data encryption, identity-based permissions, resource-based permissions, and security best practices in Amazon S3.
