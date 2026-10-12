@@ -1,1 +1,7 @@
+conclusion:-
+Configure Server Access Logging
 
+separate destination S3 bucket for storing server access logs and configure the source bucket to deliver logs to that destination. 
+I verified the logging configuration, destination bucket, and required permissions also understood that server access logs may not appear immediately because delivery is best-effort and 
+can be delayed I learned the importance of checking the destination bucket for actual log objects before confirming successful delivery. 
+This task helped me understand how server access logging supports monitoring, auditing, and security analysis of activities involving S3 buckets.
