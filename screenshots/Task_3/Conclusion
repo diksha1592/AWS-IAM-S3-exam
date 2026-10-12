@@ -1,1 +1,6 @@
-
+Conclusion of Task:-
+Create a Custom IAM Policy:-
+- The customer-managed IAM policy CustomS3ReadPolicy was created to provide read-only access to the specified S3 bucket 
+- It allows the authorized user to list bucket contents and read or download objects, without granting upload, overwrite, or delete permissions. 
+-This practical demonstrates the principle of least privilege in AWS IAM.This policy itself does not grant upload or delete permissions but other policies attached to
+ the same user or group may grant them.
