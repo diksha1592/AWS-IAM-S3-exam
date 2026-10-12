@@ -1,1 +1,6 @@
+Conclusion:-
+Verify IAM permissions :-
 
+In this taskmverified the IAM permissions of developer-user by testing access to an S3 bucket checked whether the user could list and download objects and 
+whether uploading and deleting objects were denied. 
+This practical helped us understand how IAM policies control access to AWS resources and protect data from unauthorized modifications.
