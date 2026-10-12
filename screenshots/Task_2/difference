@@ -1,1 +1,5 @@
-
+Difference between policies :
+1) AmazonS3ReadOnlyAccess
+- In this policy allows to user only list and read S3 of objects but does not grant permission to upload and delete the objects.
+2) AmazonS3FullAccess
+-In this policy allow user to perform a varoius S3 operations such as create, update, delete, modify, objects.
