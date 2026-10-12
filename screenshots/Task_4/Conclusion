@@ -1,1 +1,6 @@
+Conclusion :-
+Create an IAM role for EC2 :-
 
+In this task created an IAM role named EC2S3ReadRole and selected EC2 as the trusted service and configured the role to allow read-only access to our 
+practical S3 bucket by attaching a custom IAM policy. We also verified the trust relationship and permissions.
+I learned how IAM roles allow EC2 instances to access AWS services securely using temporary credentials without storing long-term access keys.
