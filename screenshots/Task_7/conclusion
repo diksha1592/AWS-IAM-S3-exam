@@ -1,1 +1,8 @@
+Conclusion:-
+Organize objects and enable versioning 
 
+In this task, I learned how to organize objects in an S3 bucket by creating the documents/, images/, and backups/ prefixes. 
+I uploaded appropriate sample files under each prefix to maintain an organized storage structure. 
+I enabled bucket versioning and uploaded multiple versions of the same report.txt object after modifying its content also learned how to view previous versions 
+and restore earlier content as the current version.
+This task helped me understand how versioning protects data from accidental changes and supports data recovery.
