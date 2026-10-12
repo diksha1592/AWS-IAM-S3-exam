@@ -1,1 +1,7 @@
+Conclusion:-
+Create and secure an S3 bucket  :-
 
+I learned how to create a uniquely named Amazon S3 bucket in the specified AWS Region enabled Block Public Access to prevent
+unauthorized public access and configured default server-side encryption using AWS-managed encryption. I also uploaded three sample files to the bucket and
+verified that the objects were uploaded successfully. This task helped me understand the basic concepts of cloud storage,
+data protection, and secure file management using Amazon S3.
