@@ -1,1 +1,8 @@
+Test Results Table:-
 
+Action                          Expected result	
+
+1) List bucket objects	            Allowed
+2) Download object	                Allowed	
+3) Upload object	                  Denied	
+4) Delete object	                  Denied
