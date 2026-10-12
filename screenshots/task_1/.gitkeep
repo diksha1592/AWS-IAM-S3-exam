@@ -1,5 +1,1 @@
-Conclusion of Task 1: 
-creating IAM User and Groups :-
-In this task, we used the AWS Management Console to access the IAM service and also created two IAM users naming developer-user and tester-user
-and two IAM groups  Developers and Testers then each user to the appropriate group.
-Finally, we learned how to create and manage IAM users and groups to organize access to AWS resources efficiently and securel
+
