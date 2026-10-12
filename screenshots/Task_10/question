@@ -1,1 +1,10 @@
+Explain why logs may not appear immediately after enabling logging
 
+Server access logs may not appear immediately because:
+- Delivery is best-effort and is not guaranteed for every request.
+- Log delivery is delayed and can take several hours.
+- The destination bucket permissions may be incorrect.
+- The logging destination or prefix may be configured incorrectly.
+- There may not have been enough qualifying requests to generate log entries.
+
+Example: After enabling logging, upload a test object or perform another request against the source bucket. Wait several hours and check the destination bucket for log files.
