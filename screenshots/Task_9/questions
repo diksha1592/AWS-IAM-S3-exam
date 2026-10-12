@@ -1,1 +1,9 @@
+Explain why a newly uploaded object may not transition immediately and mention relevant storage-duration or object-size considerations. 
 
+A newly uploaded object may not transition immediately because:
+- The rule specifies a 30-day waiting period.
+- S3 lifecycle processing is asynchronous.
+- The object must meet the applicable transition requirements.
+- Objects smaller than the minimum eligible size may not transition under the default size constraints.
+
+Example: An object uploaded to backups/ today becomes eligible for the configured transition after 30 days, assuming it meets all requirements.
